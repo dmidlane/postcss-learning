@@ -1,0 +1,10 @@
+.card {
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid green;
+    width: 500px;
+
+    h2 {
+        color: $heading-colour;
+    }
+}

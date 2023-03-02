@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "postcss src/input.css -o dist/style.css",
+    "watch:css": "postcss src/input.css -o dist/style.css -w"
   },
   "author": "Dominic Midlane",
   "license": "MIT",
   "devDependencies": {
+    "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
-    "postcss-cli": "^10.1.0"
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-nested": "^6.0.1",
+    "postcss-simple-vars": "^7.0.1"
   }
 }
